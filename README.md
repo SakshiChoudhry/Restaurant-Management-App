@@ -10,9 +10,9 @@ API : https://2x16hfy1zf.execute-api.ap-southeast-1.amazonaws.com/auth/hello
 **Body needed:**
 ```json
 {
-"email": "aryan@example.com",
-"firstName": "Aryan",
-"lastName": "Vedy",
+"email": "abc@example.com",
+"firstName": "Abc",
+"lastName": "Xyz",
 "password": "Password@123"
 }
 ```
@@ -29,7 +29,7 @@ API : https://2x16hfy1zf.execute-api.ap-southeast-1.amazonaws.com/auth/sign-in
 **Body needed:**
 ```json
 {
-"email": "aryan@example.com",
+"email": "abc@example.com",
 "password": "Password@123"
 }
 ```
@@ -48,7 +48,7 @@ Response:
 **Body needed:**
 ```json
 {
-"email": "ayan@example.com"
+"email": "abc@example.com"
 }
 ```
 
